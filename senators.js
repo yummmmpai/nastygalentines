@@ -20,7 +20,7 @@ var SenateActionWidget,bind=function(fn,me){
 					this.infoDiv=this.base.find(".senator-info"),
 					this.zipInput=this.base.find("input.zip"),
 					this.zipInput.on("click",this.zipPress)},
-					SenateActionWidget.prototype.zipPress=$('#button').onclick(function(){
+					SenateActionWidget.prototype.zipPress=$('#button').addEventListener("click", (function(e){
 						var zip;
 						if(zip=this.zipInput.val(),5===zip.length)
 							return 
