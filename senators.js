@@ -77,5 +77,4 @@ SenateActionWidget=function(){
 	SenateActionWidget}(),
 	window.s=new SenateActionWidget;
 
-}
                                 
